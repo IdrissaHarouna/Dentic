@@ -1,0 +1,667 @@
+
+*{
+    /* font-family: 'Montserrat'; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Pappins' , sans-serif; 
+}
+.left p{
+    font-size: 300px;
+}
+html{
+    scroll-behavior: smooth;
+}   
+
+body{
+    margin: 0 auto;
+}
+
+
+
+header.header img{
+    width: 150px;
+}
+
+
+.logo span {
+    color: hwb(60 15% 17%);
+     
+}
+
+section.top-page{
+    /* background: url('../image/bg.jpg'); */
+    background-size: cover;
+    height: 80vh;
+    padding: 20px;
+
+}
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: mone;
+    width: 400px;
+    margin-left: 700px;
+   
+}
+
+nav.nav li a{
+    color: black;
+    text-decoration: none; 
+}
+
+.nav li:nth-child(1) a { 
+    color: blue;
+    
+}
+.nav li:nth-child(5) a { 
+    color: white;
+    background-color: blue;
+    border: 1px solid black; 
+    padding: 2px 
+    
+}
+
+li{
+    list-style-type: none;
+    float: right;
+}
+.big-title {
+    font-size: 55px;
+    font-weight: bold;
+}
+#hame span{
+    color: yellow;
+    font-weight: bold;
+}
+#hame h1{
+    font-weight: bold;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#hame{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: calc(100vh - 50px);
+    justify-content: space-between;
+}
+#hame .left p {
+    font-size: 20px;
+    color: #999;
+
+}
+#hame .left button {
+    margin-top: 30px;
+    width: fit-content;
+    padding: 10px 10px;
+    background-color: blue;
+    transition: 0.5s;
+    position: relative;
+}
+
+#hame .left button a {
+    text-decoration: 0;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#hame .left button details{
+    background-color: #fff; 
+
+}
+
+#service{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #007bff;
+    padding: 50px 10px ;
+
+  }  
+div.logo-container{
+    background: #ffffff;
+    padding: 40px 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#service h1 {
+    color: #ffffff;
+}
+#service p {
+    color: #ffffff;
+}
+#service h4{
+    color: #333;
+}
+
+
+
+/* 2eme page */
+
+.column {
+    float: left; 
+    width: 50%; 
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.item img{
+    margin-right: 15px;
+    width: 500px;
+}
+#photo img{
+    margin-right: 15px;
+    width: 500px;
+}
+.titls{
+    text-align: center;
+    padding: 10px;
+
+}
+
+#about_us {
+    /* display: flex; */
+    text-align: center;
+    padding: 5px 0%;
+    width: 100%;
+}
+.about {
+    display: flex;
+    align-items: center;
+    width: 150%;
+    justify-content: space-between;
+    height: 50vh;
+}
+.about .left {
+     width: 40%;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     height: 100vh;
+}
+.about .left img {
+    width: 80%;
+}
+.about .right {
+    width: 60%;
+}
+.about .right h3 {
+    font-size:35px;
+    color: #273e60;
+    margin: 5px 0;
+}
+.about .right p {
+    font-size: 14px ;
+    color: #999;
+    text-align: center;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.gas{
+    font-weight: bolder;
+}
+
+
+.hut{
+    text-align: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+.hut span{
+    color: yellow;
+}
+
+ .right {
+    display: flex; 
+} 
+
+
+.list li
+.additional-list li {
+    display: inline-block; /* Afficher les éléments de liste côte à côte */
+    margin-right: 10px; /* Espacement entre les éléments de la liste */
+}
+
+
+
+/*3eme parti*/
+
+#feates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgba(0,0,0,0.05); */
+    padding: 50px 10px;
+}
+.mini_title {
+    margin-top: 25px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #273e60;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+}
+.dishes .dous {
+    height: 260px;
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+
+}
+.dishes .dous  img {
+    width: 130px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+.dishes .dous p {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+/*4eme partie*/
+
+.blue{
+    height: 300px;
+    background-color: blue;
+    padding: 30px;
+}
+.blue h1{
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    
+}
+
+.blue p{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.Make{
+    
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    border: #fff;
+    text-align: center;
+}
+
+.kes{
+    margin: 30px;
+    background-color: blue;
+    align-items: center;
+    border-radius: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    border: #fff;   
+}
+
+/*5eme parti*/
+.whw{
+    font-weight: bolder;
+}
+
+
+.hww{
+    text-align: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+.hww span{
+    color: yellow;
+}
+
+#WHO {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 50px);
+    flex-direction: column;
+    padding: 50px 10%;
+    width: 100%;
+}
+.aboute {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 80vh;
+}
+.aboute .lefts {
+     width: 40%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 80vh;
+}
+.aboute .lefts img {
+    width: 90%;
+}
+.aboute .rights {
+    width: 60%;
+}
+.aboute .rights h3 {
+    font-size:35px;
+    color: #273e60;
+    margin: 10px 0;
+}
+.aboute .rights p {
+    font-size: 14px ;
+    color: #999;
+}
+
+
+.dashes {
+    /* display: flex; */
+    flex-wrap: wrap; 
+    width: 150%;
+    justify-content: space-around;
+    width: 90%;
+
+}
+.dashes .daus {
+    height: 300px;
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 25px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    width: 60%;
+
+}
+.titles {
+    font-size: 30px;
+}
+.titles span{
+    font-size:40px ;
+}
+.m_title {
+    font-size: 40px;
+
+}
+
+.m_title span{
+    color: yellow;
+
+}
+
+/*6eme partie*/
+
+  .column {
+    float: left;
+    width: 20.33%;
+    padding: 2px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 80px;
+  }
+
+ h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.jac{
+    font-weight: bolder;
+}
+
+
+.go{
+    text-align: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+.go span{
+    color: yellow;
+}
+
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 20.33%;
+    padding: 40px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .Doc{
+    background-color: #f9f9f9;
+  }
+
+  .encadre {
+    color: blue; 
+    border: 2px solid blue; 
+    padding: 5px;
+    
+    
+}
+
+.conteneurs {
+    display: flex; 
+    align-items: center; 
+    background-color: blue;
+  }
+  
+  .conteneurs img {
+    width: 300px; 
+    height: auto; 
+    margin-right: 40px; 
+    align-self: center;
+  }
+  .conteneurs .texte p,
+  .conteneurs h2 {
+      color: white; 
+  }
+
+
+  /*7eme partie*/
+.mull{
+    width: 50%;
+}
+.mul{
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+.form-row input[type="text"]
+.dome{
+    display: flex;
+}
+  
+.container {
+    display: flex;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px; 
+    
+}
+
+.form-container {
+    flex: 2;
+}
+
+.form-row {
+    margin-bottom: 10px; 
+}
+
+.form-group {
+    margin-bottom: 10px; 
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="phone"],
+input[type="date"],
+input[type="doctor"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    max-width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#007bff;
+} 
+
+
+/*8eme partie*/
+
+.buttons-containers {
+    text-align: center; 
+}
+
+.buttons-containers h1 {
+    margin-bottom: 45px; 
+    color: #ffffff;
+    padding: 30px;
+}
+
+.buttons-containers buttons {
+    margin: 0 2px; 
+}
+
+#soumise{
+    background-color: #4c5f7b;
+    border-radius: 15px;
+}
+#soumise h1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.input-container {
+    display: flex;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input-container input {
+    margin-right: 10px; 
+    border-radius: 5px;
+}  
+
+
+
+
+
+
+/*footer*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.column {
+    width: 25%;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Styles de texte */
+h3 {
+    margin-top: 0;
+}
+p {
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
