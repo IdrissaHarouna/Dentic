@@ -15,6 +15,7 @@ html{
 
 body{
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 
@@ -112,6 +113,10 @@ li{
 }
 #hame .left button details{
     background-color: #fff; 
+
+}
+.kome{
+    background-color: #fff;
 
 }
 
@@ -232,8 +237,8 @@ h3{
 
 .list li
 .additional-list li {
-    display: inline-block; /* Afficher les éléments de liste côte à côte */
-    margin-right: 10px; /* Espacement entre les éléments de la liste */
+    display: inline-block; 
+    margin-right: 10px; 
 }
 
 
@@ -250,7 +255,7 @@ h3{
 }
 .mini_title {
     margin-top: 25px;
-    font-size: 16px;
+    font-size: 5px;
     text-transform: capitalize;
 }
 .title {
@@ -283,12 +288,12 @@ h3{
 }
 .dishes .dous  img {
     width: 130px;
-    height: 120px;
+    height: 80px;
     margin-bottom: 15px;
 }
 .dishes .dous p {
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
 
 }
 
@@ -434,7 +439,6 @@ h3{
     padding: 2px;
   }
   
-  /* Clear floats after image containers */
   .row::after {
     content: "";
     clear: both;
@@ -446,6 +450,9 @@ h3{
     font-size: 35px;
     font-weight: bold;
     text-align: justify;
+}
+p{
+    font-size: small;
 }
 
 .jac{
@@ -463,7 +470,7 @@ h3{
 }
 
 
-  .row {
+.row {
     display: flex;
   }
   
@@ -479,12 +486,14 @@ h3{
   }
   .Doc{
     background-color: #f9f9f9;
+    padding: 150px;
   }
 
   .encadre {
     color: blue; 
     border: 2px solid blue; 
     padding: 5px;
+    background-color: #ffffff;
     
     
 }
@@ -500,20 +509,82 @@ h3{
     height: auto; 
     margin-right: 40px; 
     align-self: center;
+    padding: 50px;
+    border: #fff;
   }
   .conteneurs .texte p,
-  .conteneurs h2 {
+  .conteneurs h6 {
       color: white; 
   }
 
 
   /*7eme partie*/
+
+  .image-container {
+    flex: 1;
+    margin-right: 20px; 
+  }
+
+  .form-container .mull{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* font-size: 15px;
+    font-size: small;
+    padding-top: 10px;
+    color: #333;
+    flex-direction: column; */
+    width: 80%;
+    margin-right: 150px;
+    padding: 40px;
+    height: 95vh;
+
+  }
+.form-container input{
+    padding: 10px;
+    margin: 40px;
+
+}
 .mull{
-    width: 50%;
+    display: flex;
+    font-size: 15px;
+    font-size: small;
+    padding-top: 10px;
+    color: #333;
+    flex-direction: column;
+    
 }
-.mul{
-    width: 100%;
+.dome{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        margin: 20px;  
+ }
+
+.form-row{
+    font-size: 13px;
 }
+.mull input{
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    color: transparent;
+    color: #333;
+    margin-top: 5px;
+    margin: 60px
+}
+
+#reservation form input[type="submit"]{
+    margin-top: 15px;
+    color: #ffffff;
+    background-color: #007bff;
+
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px}
+    .form-row{
+        font-size: 13px;
+    }
+
 form{
     width: 100%;
 }
@@ -534,6 +605,7 @@ form{
 
 .form-container {
     flex: 2;
+    
 }
 
 .form-row {
@@ -609,40 +681,50 @@ button:hover {
 .input-container input {
     margin-right: 10px; 
     border-radius: 5px;
-}  
+} 
 
+/* dernier parties*/
 
-
-
-
-
-/*footer*/
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+#pars1{
+    background-color: #007bff;
+    padding: 30px;
+    display: flex;
+    margin-top: 150px;
+    color: #ffffff;
+  
 }
+#pars2{
+    display:flex ;
+    justify-content: space-between;
+    width: 200px;
+}
+.zome{
+    width: 260px;
+    border-right: 1px solid#ffffff;
 
-.column {
-    width: 25%;
-    float: left;
-    padding: 0 20px;
-    box-sizing: border-box;
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.zim{
+    width: 250px;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-right: 1px solid#ffffff;
 }
-/* Styles de texte */
-h3 {
-    margin-top: 0;
+.zoom{
+    width: 250px;
+    margin-left: 140px;
+    margin-top: 30px;
+    border-right: 1px solid#ffffff;
 }
-p {
-    line-height: 1.5;
+.fin{
+    width: 250px;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.Zoo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    border-right: 1px solid#ffffff;
 }
 
 
