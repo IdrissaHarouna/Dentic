@@ -526,13 +526,6 @@ p{
   }
 
   .form-container .mull{
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* font-size: 15px;
-    font-size: small;
-    padding-top: 10px;
-    color: #333;
-    flex-direction: column; */
     width: 80%;
     margin-right: 150px;
     padding: 40px;
@@ -726,6 +719,7 @@ button:hover {
     margin-top: 30px;
     border-right: 1px solid#ffffff;
 }
+
 
 
 
