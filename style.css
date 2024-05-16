@@ -501,13 +501,15 @@ p{
     
 }
 
-.conteneurs {
+.conteneurs .lf p{
     display: flex; 
-    align-items: center; 
-    background-color: blue;
+     align-items: center;   
+    /* background-color: blue; */
+    
   }
+
   
-  .conteneurs img {
+.conteneurs img {
     width: 300px; 
     height: auto; 
     margin-right: 40px; 
@@ -515,14 +517,28 @@ p{
     padding: 50px;
     border: #fff;
     background-color: #ffffff;
-  }
-  .cos{
+  } 
+  /* .cos{
     color: #ffffff;
   }
   .conteneurs .texte p,
   .conteneurs h6 {
       color: white; 
+  }  */
+
+  .customers{
+    background-color: #007bff;
   }
+
+  .conteneurs .lf h4{
+    display: flex;
+    justify-content: center;
+
+  } 
+
+
+
+
 
 
   /*7eme partie*/
@@ -816,12 +832,6 @@ p{
     font-size: 12px;
 }
 
-
-
-
-
-
-/* dernier parties*/
 
 
 
