@@ -1,7 +1,7 @@
 
 *{
     /* font-family: 'Montserrat'; */
-    margin: 0;
+     margin: 0; 
     padding: 0;
     box-sizing: border-box;
      font-family: 'Pappins' , sans-serif; 
@@ -14,8 +14,10 @@ html{
 }   
 
 body{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -59,8 +61,8 @@ nav.nav li a{
 .nav li:nth-child(5) a { 
     color: white;
     background-color: blue;
-    border: 1px solid black; 
-    padding: 2px 2px;
+    /* border: 1px solid black;  */
+    padding: 5px 5px;
     
 }
 
@@ -728,7 +730,7 @@ p{
 }
 #foot{
     color: var(--silver);
-    padding-left: 50px;
+    /* padding-left: 50px; */
     padding-right: 50px;
     margin: 0;
     color: #ffffff;
@@ -831,6 +833,11 @@ p{
     height: 50px;
     color: white;
     font-size: 12px;
+}
+.info{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 
