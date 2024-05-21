@@ -19,11 +19,40 @@ body{
     padding: 0;
     margin: 0;
 }
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.line1{
+    display: flex;
+    justify-content: space-between;
+}
+.line1 .gas{
+    font-size: 25px;
+}
+.line1 .lin{
+    width: 90%;
+}
+
+.lines .line p{
+    font-size: 25px;
+
+} 
 
 
 
 header.header img{
     width: 150px;
+    margin-left: 30px;
 }
 
 
@@ -61,8 +90,10 @@ nav.nav li a{
 .nav li:nth-child(5) a { 
     color: white;
     background-color: blue;
-    /* border: 1px solid black;  */
-    padding: 5px 5px;
+     /* border: 1px solid black;   */
+    padding: 10px 10px;
+    border-radius: 8px;
+   
     
 }
 
@@ -85,14 +116,14 @@ li{
 }
 
 #hame{
-    margin-top: 50px;
+    margin-top: 50px; 
     display: flex;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: calc(100vh - 50px);
+    margin-left: 4%; 
+    /* margin-right: 5%;  */
+    height: calc(100vh - 50px); 
     justify-content: space-between;
-}
+} 
 #hame .left p {
     font-size: 20px;
     color: #999;
@@ -105,16 +136,20 @@ li{
     background-color: blue;
     transition: 0.5s;
     position: relative;
+    border-radius: 10px;
 }
+
 
 #hame .left button a {
     text-decoration: 0;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 #hame .left button details{
     background-color: #fff; 
+    
 
 }
 #hame .left .kome{
