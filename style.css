@@ -843,6 +843,7 @@ p{
     font-size: 12px;
     width: 100px;
     row-gap: 10px;
+    text-decoration: none;
 }
 
 #foot .info .info-fort{
