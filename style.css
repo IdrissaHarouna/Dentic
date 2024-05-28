@@ -114,6 +114,11 @@ li{
     font-weight: bolder;
     font-size: 50px;
 }
+.right{
+    width: 50%;
+    
+    
+}
 
 #hame{
     margin-top: 50px; 
@@ -137,6 +142,7 @@ li{
     transition: 0.5s;
     position: relative;
     border-radius: 10px;
+    margin-left: 8%;
 }
 
 
@@ -231,7 +237,8 @@ div.logo-container{
      height: 100vh;
 }
 .about .left img {
-    width: 80%;
+    width: 50%;
+    margin-left: 70%;
 }
 .about .right {
     width: 60%;
