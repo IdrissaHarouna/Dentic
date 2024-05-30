@@ -170,13 +170,22 @@ li{
     padding: 50px 10px ;
 
   }  
-div.logo-container{
+.logo-container{
     background: #ffffff;
-    padding: 40px 10px;
+    /* padding: 40px 10px; */
     border-radius: 10px;
     text-align: center;
+    /* display: flex; */
+    width: 200px;
+    height: 150px;
+    
 
 }
+
+.logo-container img,h4 {
+    margin-top: 30px;
+}
+
 #service h1 {
     color: #ffffff;
 }
