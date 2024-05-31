@@ -138,11 +138,15 @@ li{
     margin-top: 30px;
     width: fit-content;
     padding: 15px 25px;
-    background-color: blue;
+    /* background-color: blue; */
+    background-color: #007bff;
     transition: 0.5s;
     position: relative;
     border-radius: 10px;
     margin-left: 8%;
+}
+.right img {
+    width: 480px;
 }
 
 
@@ -354,7 +358,8 @@ h3{
 
 .blue{
     height: 300px;
-    background-color: blue;
+    /* background-color: blue; */
+    background-color: #007bff;
     padding: 30px;
 }
 .blue h1{
@@ -380,17 +385,61 @@ h3{
 
 .kes{
     margin: 30px;
-    background-color: blue;
+    background-color: #007bff;
     align-items: center;
-    border-radius: center;
+    /* border-radius: center; */
     color: #ffffff;
     height: 50px;
     width: 250px;
-    border-color: #ffffff;  
-
+    border-color: #ffffff;
+    margin-top: 5px;
+    border-radius: 10px; 
+   
+   
 }
 
 /*5eme parti*/
+
+/* #WHO{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.kines{
+    width: 100%;
+}
+
+.kines .kine{
+    width: 90%;
+}
+.kines .kine .or{
+    display: flex;
+    justify-content: end;
+    font-size: 1.4em;
+}
+.kines .kine p{
+    display: flex;
+    /* justify-content: end; */
+}
+.kines .kine .kine1{
+    display: flex;
+}
+.kines .kine .kine1 p{
+    font-size: 1.6em;
+}
+.kines .kine .kine1 .kine p{
+    font-size: 1.6em;
+}
+.kines .kine .kine1 span{
+    color: yellow;
+}
+.kines .kine .kine1 p{
+    display: flex;
+}
 .whw{
     font-weight: bolder;
 }
@@ -428,7 +477,9 @@ h3{
      height: 80vh;
 }
 .aboute .lefts img {
-    width: 90%;
+    width: 400px;
+    margin-right: 45px;
+    margin-bottom: 40px;
 }
 .aboute .rights {
     width: 60%;
@@ -441,20 +492,22 @@ h3{
 .aboute .rights p {
     font-size: 14px ;
     color: #999;
+    margin-top: 30px;
 }
 
 
 .dashes {
     /* display: flex; */
     flex-wrap: wrap; 
-    width: 150%;
     justify-content: space-around;
     width: 90%;
 
 }
+.daus h4{
+    margin-top: 5px;
+}
 .dashes .daus {
     height: 300px;
-    width: 30%;
     background-color: #f9f9f9;
     padding: 25px;
     /* display: flex; */
@@ -465,9 +518,13 @@ h3{
     margin-bottom: 50px;
     transition: 0.5s;
     box-shadow: 0 0 10px rgba(0,0,0,0.1); 
-    width: 60%;
+    width: 90%;
+    margin-left: 50px;
 
 }
+
+
+
 .titles {
     font-size: 30px;
 }
@@ -488,8 +545,12 @@ h3{
 
   .column {
     float: left;
-    width: 20.33%;
+    /* width: 20.33%; */
     padding: 2px;
+  } 
+  .column h6{
+    text-align: center;
+    padding: 5px;
   }
   
   .row::after {
@@ -504,9 +565,15 @@ h3{
     font-weight: bold;
     text-align: justify;
 }
-p{
+/* p{
     font-size: small;
     padding: 7px;
+} */
+.column p{
+    font-size: small;
+    padding: 10px;
+    font-size: 12px;
+    color: #999;
 }
 
 .jac{
@@ -544,10 +611,10 @@ p{
   }
 
   .encadre {
-    color: blue; 
-    border: 2px solid blue; 
+    color: #2596be; 
+    border: 1.4px solid #2596be; 
     padding: 10px 35px;
-    border-radius: 7px;
+    border-radius: 8px;
     background-color: #ffffff;
   }
 .customerre{
@@ -558,7 +625,7 @@ p{
     position: relative;
     margin-bottom: 159px; 
     height: 400px;
-    padding: 40px;
+    padding: 40px; 
 
 }
 .customerre .lleft h1{
@@ -576,26 +643,73 @@ p{
 }
 .customerre .riigt{
     color: #ffffff;
-    margin-right: 350px;
-    width: 80%;
+    /* margin-right: 350px; */
+    width: 100%;
     padding-left: 40px;
 
 }
-.customerre .riigt h2{
+/* .customerre .riigt h2{
     font-size: 30px;
 
-} 
+}  */
 .customerre .riigt p{
-    font-size: 15px;
-    padding-top: 20px;
+    font-size: 10px;
+    /* padding-top: 15px; */
+    color: white;
+    margin-top: 50px;
+    
 
 }
 
-
+.riigt h2{
+    font-size: 25px;
+}
 
 
 
   /*7eme partie*/
+  .rendres{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rendres .rendre{
+    width: 90%;
+}
+.rendres .rendre .rendre1 .g1{
+    display: flex;
+    /* justify-content: end;
+    font-size: 1.4em; */
+}
+.rendres .rendre .rendre1 .g1 .k1 .k2{
+    width: 80%;
+}
+.rendres .rendre p{
+    display: flex;
+    /* justify-content: end; */
+}
+/* .rendres .rendre .rendre1{
+    display: flex;
+} */
+.rendres .rendre .rendre1 p{
+    font-size: 1.6em;
+}
+.rendres .rendre .rendre1 .g1 p{
+    font-size: 1.6em;
+}
+.rendres .rendre .rendre1 span{
+    color: yellow;
+}
+.rendres .rendre .rendre1 p{
+    display: flex;
+}
+
+
+
+
+
 .tittle .text{
     display: flex;
     justify-content: space-between;
@@ -806,6 +920,8 @@ p{
     margin-bottom: 20px;
     width: 130px;
     filter: brightness(10);
+   margin: auto;
+   margin-left: 2px;
 }
 
 #foot .info .info-one p{
@@ -813,6 +929,7 @@ p{
     margin-right: 35px;
     color: var(--silver);
     line-height: 2;
+    text-align: center;
 }
 .ligne{
     opacity: 0.9;
@@ -821,6 +938,10 @@ p{
     margin-top: 50px;
 
 }
+.linkss{
+    margin-top: 30px;
+}
+
 
 #foot .info .info-two{
     padding-left: 50px;
@@ -832,13 +953,16 @@ p{
     font-size: 10px;
     line-height: 1.5;
     color: var(--silver);
+    
 }
 
 #foot .info .info-two h4{
     font-size: 1.1rem;
     font-weight: bold;
 }
-
+.woozz{
+    margin-bottom: 30px;
+}
 #foot .info .info-three{
     padding-top: 20px;
     padding-left: 50px;
@@ -871,6 +995,7 @@ p{
 #foot .info .info-fort p{
     font-size: 11px;
     line-height: 2;
+    margin-top: 20px;
 }
 #foot .info .info-fort h6{
     font-size: 10px;
