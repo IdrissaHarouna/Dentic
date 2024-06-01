@@ -212,16 +212,16 @@ li{
 .item {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+   
 }
 
 .item img{
     margin-right: 15px;
-    width: 500px;
+    width: 400px;
 }
 #photo img{
     margin-right: 15px;
-    width: 500px;
+    width: 300px;
 }
 .titls{
     text-align: center;
@@ -254,7 +254,7 @@ li{
     margin-left: 70%;
 }
 .about .right {
-    width: 60%;
+    width: 100%;
 }
 .about .right h3 {
     font-size:35px;
@@ -399,15 +399,6 @@ h3{
 }
 
 /*5eme parti*/
-
-/* #WHO{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-
 
 .kines{
     width: 100%;
@@ -643,26 +634,27 @@ h3{
 }
 .customerre .riigt{
     color: #ffffff;
-    /* margin-right: 350px; */
     width: 100%;
     padding-left: 40px;
 
 }
-/* .customerre .riigt h2{
-    font-size: 30px;
 
-}  */
 .customerre .riigt p{
     font-size: 10px;
-    /* padding-top: 15px; */
     color: white;
     margin-top: 50px;
+    
     
 
 }
 
 .riigt h2{
     font-size: 25px;
+    margin-top: 50px;
+}
+.riigt p{
+    line-height: 2;
+    margin-top: 300px;
 }
 
 
@@ -678,13 +670,17 @@ h3{
 .rendres .rendre{
     width: 90%;
 }
-.rendres .rendre .rendre1 .g1{
+.rendres .rendre .rendre1 .k1{
     display: flex;
+    justify-content: space-between;
     /* justify-content: end;
     font-size: 1.4em; */
 }
-.rendres .rendre .rendre1 .g1 .k1 .k2{
-    width: 80%;
+.rendres .rendre .rendre1 {
+   width: 100%;
+}
+.rendres .rendre .rendre1 .k1 .k2{
+    width: 90%;
 }
 .rendres .rendre p{
     display: flex;
@@ -696,8 +692,13 @@ h3{
 .rendres .rendre .rendre1 p{
     font-size: 1.6em;
 }
+.rendres .rendre .rendre1 .g1{
+    display: flex;
+    justify-content: end;
+}
 .rendres .rendre .rendre1 .g1 p{
     font-size: 1.6em;
+    
 }
 .rendres .rendre .rendre1 span{
     color: yellow;
@@ -1010,6 +1011,7 @@ h3{
     height: 50px;
     color: white;
     font-size: 12px;
+    
 }
 .info{
     width: 100%;
